@@ -19,7 +19,7 @@
     font-family: 'Bebas Neue';
     font-weight: normal;
     text-align: center;
-    padding:20px;
+    padding:15px;
     font-size: 3em;
 }
 
@@ -32,14 +32,13 @@
 }
 
 .ativo.cabecalho {
-    height: 250px;
+    height: 280px;
 }
 
 .menu {
     display: none;
     width: 100%;
     height: auto;
-    padding: 8px;
 }
 
 .menu ul {
