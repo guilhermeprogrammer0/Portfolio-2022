@@ -34,7 +34,7 @@ header>h1 {
     justify-content: center;
     color: white;
     cursor: pointer;
-
+    transition: 0.5s;
 }
 
 .menu {
@@ -55,22 +55,35 @@ header>h1 {
 
 .menu li {
     padding: 10px;
+
 }
 
 .menu li a {
-    text-align: justify;
+    display:block;
+    text-align:center;
+    padding:7px;
+    transition:0.3s;
     text-decoration: none;
     color: #e8f1f2cb;
     font-size: 1.5em;
     font-family: 'Raleway';
+   
 }
 
 .menu li a:hover {
     color: white;
+    background-color:#04c4d9;
+    border-radius: 4px;
+    transition:0.3s;
 }
 
 nav.ativo .menu {
     display: flex;
+}
+nav.ativo .fa-bars
+{
+    color:#0590a0;
+    transition: 0.5s;
 }
 
 #imagem1 {
