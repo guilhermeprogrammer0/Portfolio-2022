@@ -9,6 +9,7 @@
 }
 
 body {
+    position: relative;
     background-color: #0A1128
 }
 
@@ -99,9 +100,6 @@ body {
     width:80%;
     display:block;
     margin:auto;
-
-   
-    
 }
 h1 {
     color: #04C2D9;
@@ -125,4 +123,38 @@ h1 {
 
 .card-text {
     font-size: 0.8em;
+}
+.ensino
+{
+
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+    width:95%;
+    height:auto;
+    background-color: white;
+}
+.local_ensino
+{
+    text-align: center;
+    color:#0A1128
+}
+.local_ensino > h2
+{
+color:#0A1128;
+font-weight: bold;
+}
+
+footer
+{
+    display:flex;
+
+    margin-top:50px;
+    background-color: black;
+    width:100%;
+    height:120px;
+ 
 }
