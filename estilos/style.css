@@ -11,7 +11,7 @@
 .cabecalho {
     background-color: #0A1128;
     width: 100vw;
-    height: 120px;
+    height: 180px;
 }
 
 .cabecalho>h1 {
@@ -19,6 +19,7 @@
     font-family: 'Bebas Neue';
     font-weight: normal;
     text-align: center;
+    padding:20px;
     font-size: 3em;
 }
 
