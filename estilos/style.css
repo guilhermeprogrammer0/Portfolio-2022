@@ -38,7 +38,6 @@ header>h1 {
 }
 
 .menu {
-
     position: absolute;
     top: 150px;
     display: none;
@@ -52,7 +51,6 @@ header>h1 {
     overflow: hidden;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-
 }
 
 .menu li {
