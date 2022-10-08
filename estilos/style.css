@@ -131,10 +131,11 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
+   
 }
 
 .card {
-    width: 14em;
+    width: 14rem;
 }
 
 .card-text {
