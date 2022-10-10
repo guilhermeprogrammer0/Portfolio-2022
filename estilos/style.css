@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Peralta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Peralta&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 * {
     margin: 0px;
@@ -188,8 +189,16 @@ footer {
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width:70%;
     font-size: 0.8em;
+}
+.code > h1
+{
+    color:#04C2D9;
+    font-size: 2em;
+    font-family:'Silkscreen';
+    margin-bottom: 25px;
 }
 .code code
 {
@@ -214,10 +223,10 @@ footer {
 .contato p a
 {
     color:white;
-    transition:0.5s;
+    transition:0.3s;
 }
 .contato p a:hover
 {
     color:#0590a0;
-    transition:0.5s;
+    transition:0.3s;
 }
