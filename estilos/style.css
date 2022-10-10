@@ -106,18 +106,20 @@ nav.ativo .fa-bars
     border-radius: 5px;
     width: 80%;
     background-color: white;
-    height: 240px;
+    height: 320px;
 }
 
-.sobre>h2 {
+.sobre h2 {
     text-align: center;
-    color: #0A1128;
+    margin-top:50px;
+    color:#0590a0;
     font-family: 'Bebas Neue';
 }
 
 .sobre p {
     text-align: justify;
-    width: 80%;
+    width: 85%;
+    text-indent: 8px;
     display: block;
     margin: auto;
 }
