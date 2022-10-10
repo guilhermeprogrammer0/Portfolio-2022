@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos/style.css">
-   <link rel="stylesheet" href="estilos/midias.css">
+    <link rel="stylesheet" href="estilos/midias.css">
     <title>Portfólio - Guilherme Souza</title>
 </head>
 
@@ -17,7 +17,7 @@
 
     <header>
         <h1>Guilherme Souza</h1>
-       
+
         <nav id="navegacao">
             <i class="fa-solid fa-bars fa-3x" id="abrir_menu"></i>
             <ul class="menu">
@@ -33,8 +33,10 @@
 
     <main class="sobre">
         <h2>Sobre Mim</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus sint possimus veniam adipisci incidunt perspiciatis expedita laboriosam nesciunt corrupti. Repellat esse minus ab possimus aspernatur dicta asperiores deserunt ad saepe.</p>
-        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus sint possimus veniam adipisci incidunt
+            perspiciatis expedita laboriosam nesciunt corrupti. Repellat esse minus ab possimus aspernatur dicta
+            asperiores deserunt ad saepe.</p>
+
     </main>
 
     <h1>Habilidades</h1>
@@ -65,27 +67,55 @@
             </div>
         </div>
     </section>
-
+    <h1>Locais de Ensino</h1>
     <section class="ensino">
+
         <div class="local_ensino">
-            <h2>Etec bento Carlos Botelho Do Amaral</h2>
+            <p><img src="https://cesargalindo.com.br/wp-content/uploads/2018/02/logo-etec.png" </p>
             <h6>Técnico em Desenvolvimento de Sistemas</h6>
         </div>
         <div class="local_ensino">
-            <h2>Faculdade de Tecnololgia</h1>
+            <p><img src="imagens/fatec.png" </p>
             <h6>Cursando Análise e Desenvolvimento de Sistemas</h6>
+        </div>
+    </section>
+    <h1 style="font-size: 1.5em;">Linguagens a serem estudadas e/ou em estudo</h1>
 
+    <section class="linguagens">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/py.ico" class="d-block w-100" alt="Phyton">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/c++.png" class="d-block w-100" alt="C++">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/csharp.png" class="d-block w-100" alt="C#">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
     </section>
 
     <footer>
-        <section><code>console.log('Obrigado, por visitar meu site')</code></section>
+        <section class="code"><code>console.log('Obrigado, por visitar meu site')</code></section>
         <section class="contato">
-            <p>Instagram</p>
-            <p>LinkedIn</p>
-            <p>E-mail</p>
-            
+            <p><a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a></p>
+            <p><a href="#"><i class="fa-brands fa-linkedin-in fa-2x"></i></a></p>
+            <p><a href="#"><i class="fa-regular fa-envelope fa-2x"></i></a></p>
+            <p><a href="#"><i class="fa-brands fa-github fa-2x"></i></a></p>
+
         </section>
     </footer>
 

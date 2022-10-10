@@ -9,8 +9,10 @@
 }
 
 body {
-
-    background-color: #0A1128
+    background-color: #0A1128;
+    overflow-x: hidden;
+    width:100vw;
+    height:100vh;
 }
 
 header {
@@ -87,10 +89,12 @@ nav.ativo .fa-bars
 }
 
 #imagem1 {
+    background-color: #0A1128;
     background-image: url(../imagens/img1.jpg);
     width: 100%;
     height: 300px;
-    background-size: cover
+    background-position: right bottom;
+    background-size: cover;
 }
 
 .sobre {
@@ -131,9 +135,8 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-   
+    margin-bottom: 10px;
 }
-
 .card {
     width: 14rem;
 }
@@ -143,34 +146,78 @@ h1 {
 }
 
 .ensino {
-
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 50px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
-    width: 95%;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+    width: 90%;
     height: auto;
-    background-color: white;
+    background-color: white;  
 }
 
 .local_ensino {
     text-align: center;
-    color: #0A1128
-}
-
-.local_ensino>h2 {
     color: #0A1128;
-    font-weight: bold;
-}
 
+}
+.local_ensino h6
+{
+    color:#0A1128;
+    font-size: 1.1em;
+}
+.linguagens
+{
+    display:block;
+    margin:auto;
+    width:50%;
+}
 footer {
     display: flex;
-
     margin-top: 50px;
     background-color: black;
     width: 100%;
-    height: 120px;
-
+    height: 230px;
+}
+.code
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:70%;
+    font-size: 0.8em;
+}
+.code code
+{
+    background-color: #0590a0;
+    padding:20px;
+    border-radius: 25px;
+    color:white;
+}
+.contato
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width:30%;
+}
+.contato p
+{
+    color:white;
+    cursor:pointer;
+}
+.contato p a
+{
+    color:white;
+    transition:0.5s;
+}
+.contato p a:hover
+{
+    color:#0590a0;
+    transition:0.5s;
 }
