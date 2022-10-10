@@ -7,3 +7,10 @@ function menu_abrir(event) {
    navegacao.classList.toggle('ativo');
 
 }
+var back_top = document.querySelector("#back_top");
+back_top.addEventListener('click',voltar_topo);
+
+function voltar_topo()
+{
+    window.scrollTo(0,0);
+}
