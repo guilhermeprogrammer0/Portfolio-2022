@@ -25,11 +25,11 @@ header {
 
 header>h1 {
     color: #04C2D9;
-    font-family: 'Bebas Neue';
+    font-family: 'Silkscreen';
     font-weight: normal;
     text-align: center;
     padding: 15px;
-    font-size: 3em;
+    font-size: 2.7em;
 }
 
 .fa-bars {
@@ -104,14 +104,27 @@ nav.ativo .fa-bars
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 5px;
-    width: 80%;
+    width: 85%;
     background-color: white;
-    height: 320px;
+    height: 300px;
 }
-
+#minha_foto
+{
+    display:block;
+    margin:auto;
+    margin-top: 50px;
+    background-color: #0A1128;
+    background-image: url('../imagens/eu.png');
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    width:250px;
+    height:250px;
+    background-position: center center;
+    background-size: cover
+}
 .sobre h2 {
     text-align: center;
-    margin-top:50px;
     color:#0590a0;
     font-family: 'Bebas Neue';
 }
@@ -119,7 +132,6 @@ nav.ativo .fa-bars
 .sobre p {
     text-align: justify;
     width: 85%;
-    text-indent: 8px;
     display: block;
     margin: auto;
 }
@@ -158,7 +170,7 @@ h1 {
     margin-bottom: 50px;
     border-radius: 7px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
-    width: 90%;
+    width: 85%;
     height: auto;
     background-color: white;  
 }
@@ -173,6 +185,10 @@ h1 {
     color:#0A1128;
     font-size: 1.1em;
 }
+#l
+{
+    font-size: 1.5em;
+}
 .linguagens
 {
     display:block;
@@ -181,7 +197,6 @@ h1 {
 }
 #topo
 {
-
    display:block;
 }
 .fa-arrow-up
@@ -215,11 +230,11 @@ footer {
     width:70%;
     font-size: 0.8em;
 }
-.code > h1
+.code  h1
 {
     color:#04C2D9;
-    font-size: 2em;
-    font-family:'Silkscreen';
+    font-size: 2.5em;
+    font-family:'Bebas Neue';
     margin-bottom: 25px;
 }
 .code code

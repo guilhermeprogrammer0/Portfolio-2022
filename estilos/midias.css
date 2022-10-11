@@ -2,7 +2,7 @@
 
 @media screen and (min-width:798px) {
     header>h1 {
-        font-size: 4.5em;
+        font-size: 4.2em;
     }
 
     .fa-bars {
@@ -22,7 +22,7 @@
         width: 100%;
         border-radius: 0;
     }
-
+   
     .menu li a {
         display: block;
         transition: 0.3s;
@@ -30,37 +30,123 @@
         border-radius: 8px;
     }
 
-    .menu li a:hover{
+    .menu li a:hover {
         background-color: rgba(0, 0, 0, 0.274);
         transition: 0.3s;
     }
 
+    #imagem1 {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 85%;
+        height: 250px;
+    }
+
+    .sobre {
+        height: 220px;
+    }
+
+    .card {
+        margin: 25px;
+        width: 15.2rem;
+        transition: transform 0.8s;
+        box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.295);
+    }
+
+    .card:hover {
+        cursor: pointer;
+        transform: translate(0px, -10px);
+        transition: transform 0.8s;
+
+    }
+
+    .linguagens {
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
+
+    #l {
+        font-size: 2.2em;
+    }
+
+    .code h1 {
+        font-size: 3.3em
+    }
+
+    .code code {
+        font-size: 1em;
+    }
+
+
 }
 
-@media screen and (min-width:798px) and (max-width:992px)
-{
-    .sobre
-    {
-        width:50%;
-    }
+@media screen and (min-width:798px) and (max-width:992px) {
+
     .habilidades {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-wrap: wrap; 
-        padding:20px;
+        flex-wrap: wrap;
+        padding: 50px;
     }
-    .card {
-        margin:25px;
-        width:15.2rem;
-        transition:transform 0.8s;
-        box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.295);
-    }
-    .card:hover
-    {
-        cursor: pointer;
-        transform: translate(0px,-10px);
-        transition: transform 0.8s;
+}
 
+@media screen and (min-width:993px) {
+    #imagem1 {
+        max-width:800px;
+        background-size: cover;
+        height: 250px;
     }
+
+    .sobre {
+        max-width: 600px;
+        height: 250px;
+    }
+
+    .habilidades {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    .ensino {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        padding: 50px;
+        height: 250px;
+
+        background-color: white;
+    }
+
+    .linguagens {
+        display: block;
+        margin: auto;
+        width: 20%;
+    }
+
+    #l {
+        font-size: 2.6em;
+    }
+
+    .code h1 {
+        font-size: 3.8em
+    }
+
+    .code code {
+        font-size: 1.3em;
+    }
+
+
+
+
 }
