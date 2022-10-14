@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-width:798px) {
+ 
+    header {
+        height: 250px;    
+    }
+
     header>h1 {
         font-size: 4.2em;
     }
@@ -9,32 +14,18 @@
         display: none;
     }
 
-    header {
-        height: 200px;
-    }
-
     .menu {
-        bottom: 0;
         display: flex;
         flex-direction: row;
-        background: none;
-        height: 50px;
+        padding: 20px;
+        height: 80px;
         width: 100%;
         border-radius: 0;
     }
-
-    .menu li a {
-        display: block;
-        transition: 0.3s;
-        padding: 20px;
-        border-radius: 8px;
+    .menu li a
+    {
+        padding:15px;
     }
-
-    .menu li a:hover {
-        background-color: rgba(0, 0, 0, 0.274);
-        transition: 0.3s;
-    }
-
     #imagem1 {
         display: block;
         margin: auto;
@@ -88,12 +79,12 @@
 
     .local_ensino p:nth-child(2n) {
         font-style: italic;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .local_ensino p:nth-child(odd) {
         font-weight: bold;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     #l {
@@ -107,8 +98,6 @@
     .code code {
         font-size: 1em;
     }
-
-
 }
 
 @media screen and (min-width:798px) and (max-width:992px) {
@@ -124,7 +113,7 @@
     .sobre {
         width: auto;
         max-width: 650px;
-    }
+    }   
 }
 
 @media screen and (min-width:993px) {
@@ -176,8 +165,5 @@
     .code code {
         font-size: 1.3em;
     }
-
-
-
 
 }
