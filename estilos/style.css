@@ -94,6 +94,15 @@ nav.ativo .fa-bars
     background-position: right bottom;
     background-size: cover;
 }
+#area
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap:20px;
+
+}
 
 .sobre {
     display: block;
@@ -103,7 +112,7 @@ nav.ativo .fa-bars
     border-radius: 5px;
     width: 85%;
     background-color: white;
-    height:250px;
+    height:280px;
 }
 #minha_foto
 {
