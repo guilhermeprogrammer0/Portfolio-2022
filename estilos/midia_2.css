@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen AND (min-width:798px) {
+    header>h1 {
+        font-size: 4.2em;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .menu {
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        height: 50px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .menu li a {
+        display: block;
+        transition: 0.3s;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .menu li a:hover {
+        background-color: rgba(0, 0, 0, 0.274);
+        transition: 0.3s;
+    }
+
+    #escrito {
+        font-size: 2.1em;
+    }
+
+    .contato {
+        flex-direction: column;
+        width: 600px;
+        height: auto;
+    }
+    .campo
+{
+    width:300px;
+    outline:0;
+    border:solid 1.5px #0590a0;
+    padding:5px;
+    border-radius: 3px;
+}
+.botao
+{
+    width:150px;
+    padding:10px;
+   
+}
+.code h1 {
+    font-size: 3.3em
+}
+
+.code code {
+    font-size: 1em;
+}
+
+
+}
