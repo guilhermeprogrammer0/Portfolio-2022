@@ -49,6 +49,10 @@
     .sobre {
         height: 220px;
     }
+    .sobre p
+    {
+        font-size: 1em;
+    }
 
     .card {
         margin: 25px;
@@ -93,6 +97,11 @@
         justify-content: center;
         flex-wrap: wrap;
         padding: 50px;
+    }
+    .sobre
+    {
+        width:auto;
+        max-width:650px;
     }
 }
 
