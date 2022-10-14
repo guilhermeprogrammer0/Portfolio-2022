@@ -20,7 +20,7 @@ header {
     position: relative;
     background-color: #0A1128;
     width: 100vw;
-    height: 150px;
+    height: 200px;
 }
 
 header>h1 {
@@ -36,7 +36,7 @@ header>h1 {
     justify-content: center;
     color: white;
     cursor: pointer;
-    transition: 0.5s;
+    padding:10px;
 }
 
 .menu {
@@ -53,6 +53,7 @@ header>h1 {
     overflow: hidden;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-top:15px;
 }
 .menu li {
     padding: 10px;
@@ -61,19 +62,18 @@ header>h1 {
 .menu li a {
     display:block;
     text-align:center;
-    padding:7px;
+    padding:9px;
     transition:0.3s;
     text-decoration: none;
     color: #e8f1f2cb;
     font-size: 1.5em;
     font-family: 'Raleway';
-   
 }
 
 .menu li a:hover {
     color: white;
     background-color:#04c4d9;
-    border-radius: 4px;
+    border-radius: 5px;
     transition:0.3s;
 }
 
@@ -83,7 +83,6 @@ nav.ativo .menu {
 nav.ativo .fa-bars
 {
     color:#0590a0;
-    transition: 0.5s;
 }
 
 #imagem1 {
@@ -160,11 +159,14 @@ h1 {
     margin-bottom: 10px;
 }
 .card {
-    width: 14rem;
+    width: 12.5rem;
+
 }
 
 .card-text {
-    font-size: 0.8em;
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
 }
 
 .ensino {
@@ -172,25 +174,39 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:20px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 50px;
-    border-radius: 7px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.322);
     width: 85%;
     height: auto;
-    background-color: white;  
+    background-color:white;
 }
 
 .local_ensino {
     text-align: center;
-    color: #0A1128;
+    width:100%;
+    padding:25px;
 
 }
-.local_ensino h6
+.local_ensino h2
 {
-    color:#0A1128;
-    font-size: 1.1em;
+    color: #A3130D;
+    font-weight:normal;
+    width:100%;
+    font-size: 2em;
+    font-family: 'Bebas Neue';
+}
+.local_ensino p:nth-child(2n)
+{
+   font-style: italic;
+}
+.local_ensino p:nth-child(odd)
+{
+    font-weight: bold;
+    font-size: 0.8em;
 }
 #l
 {
